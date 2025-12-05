@@ -2,25 +2,31 @@
 # Adicionar um novo aluno e nota.
 def adicionarNovoAluno(d : dict, nome: str, nota: int) -> None:
     #TODO
+    return
 
 # Atualizar a nota de um aluno existente.
 def atualizarNota(d: dict, nome: str, nota: int) -> None:
     #TODO
+    return
 
 # Exibir todos os alunos e notas (por ordem alfabética ou nota decrescente)
 def exibirAlunos(d: dict) -> None:
     #TODO
+    return
 
 def exibirAlunosRevertido(d: dict) -> None:
     #TODO
+    return
 
 # Mostrar o aluno com a maior nota.
 def exibirMelhor(d: dict) -> None:
     #TODO
+    return
 
 # Mostrar aluno com menor nota
 def exibirPior(d: dict) -> None:
     #TODO
+    return
 
 def menu() -> int:
     print("1 - Adicionar um novo aluno e nota.")
