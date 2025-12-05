@@ -1,3 +1,11 @@
+# fazer um print com texto em verde
+def PrintVerde(input):
+    print(f"\033[92m {input} \033[00m")
+
+# fazer um print com texto em azul
+def PrintAzul(input):
+    print(f"\033[94m {input} \033[00m")
+
 
 # Adicionar um novo aluno e nota.
 def adicionarNovoAluno(d : dict, nome: str, nota: int) -> None:
@@ -29,13 +37,13 @@ def exibirPior(d: dict) -> None:
     return
 
 def menu() -> int:
-    print("1 - Adicionar um novo aluno e nota.")
-    print("2 - Atualizar a nota de um aluno existente.")
-    print("3 - Exibir todos os alunos e notas")
-    print("4 - Mostrar o aluno com a maior nota.")
-    print("5 - Mostrar aluno com menor nota")
-    print("6 - Sair do programa.")
-    i = int(input('Introduza uma opcao: '))
+    PrintAzul("1 - Adicionar um novo aluno e nota.")
+    PrintAzul("2 - Atualizar a nota de um aluno existente.")
+    PrintAzul("3 - Exibir todos os alunos e notas")
+    PrintAzul("4 - Mostrar o aluno com a maior nota.")
+    PrintAzul("5 - Mostrar aluno com menor nota")
+    PrintAzul("6 - Sair do programa.")
+    i = int(input('\033[96m Introduza uma opcao: \033[00m'))
     return i
 
 def menuAdicionarAluno():
