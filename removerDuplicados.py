@@ -8,4 +8,4 @@ if __name__ == '__main__':
 
     expected_list = [1, 2, 3, 4]
 
-    assert(new_l == expected_list)
+    assert new_l == expected_list, "Resultado errado" 
